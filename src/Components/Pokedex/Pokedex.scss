@@ -1,0 +1,24 @@
+.pokedex{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    padding:0;
+    overflow-y: scroll;
+    height: 40em;
+    background-color: white;
+    box-shadow: -5px 5px 10px grey;
+    margin:0;
+    h1 {
+        text-align: center;
+    }
+    li {
+        display: grid;
+        list-style: none; 
+        border: 2px solid black;
+        margin : 5px;
+        padding: 10px;
+        background-color: lightblue ;
+    }
+    
+
+}

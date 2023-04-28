@@ -1,0 +1,27 @@
+.teamElem{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: -5px 5px 10px grey;
+    flex-direction: column;
+    align-items: center;
+    .btnPkmn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        column-gap: 10px;
+        .deletePkmn{
+            grid-column: 0/2;
+            background-color: red;
+            height: max-content;
+        }
+        .detailButtonId{
+            border-color: black;
+            border-width: 2px;
+            background-color: aquamarine;
+            grid-column: 2;
+        }
+            
+        }
+    }
+
