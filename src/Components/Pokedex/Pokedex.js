@@ -7,7 +7,7 @@ const Pokedex = () => {
   const [state,dispatch] = useContext(PokemonContext);
   return(
     <ul className="boxElem pokedex">
-      <h1> Pokemon Liste</h1>
+      <h1> Pokedex </h1>
       {state.pokemons.length >0 &&  state.pokemons.map((val,i) => <Pokelem  id={i} pokemon={val}  /> ) }
     </ul>
 

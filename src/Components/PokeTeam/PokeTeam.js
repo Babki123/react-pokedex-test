@@ -16,7 +16,7 @@ console.log(state.pokemonTeam)
     return (
         <React.Fragment>
         <div className="boxElem">
-            <h1> Titre</h1>
+            <h1> Mon Equipe </h1>
         <ul className=" teamList">
         
             { state.pokemonTeam.map((pokemon,i)=>{   

@@ -28,8 +28,8 @@ const PokeDetail = () => {
             </div>}
             {state.pokemonToDetails != null &&  (
               <span>
-                <div>
-                <h1 className="title">{state.pokemons[state.detailPokemonId].name}</h1>
+                <div className="title">
+                <h1 >{state.pokemons[state.detailPokemonId].name}</h1>
                 <BtnAddTeam pokemon={state.pokemons[state.detailPokemonId]} id={state.detailPokemonId}/>
                 </div>
                 

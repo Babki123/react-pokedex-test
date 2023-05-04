@@ -22,8 +22,15 @@
         background-color: lightcoral;
     }
     .title{
-        grid-column:1/4;
+        grid-column: 1/4;
+        display: flex;
+        justify-content: center;
         text-align: center;
+        h1{
+            font-size: 4vh;
+            margin : 0px
+        }
+
     }
     .pkmnPict{
         width: 20em;
